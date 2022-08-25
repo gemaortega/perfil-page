@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <h1>Profile</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">My Profile</a>
+            <a href="#">Find Connections</a>
+        </nav>
+        <button class="btn_logout">Sign Out</button>
+    </header>
+    <div class="container">
+        <div class="left-section">
+            <div id="card_profile">
+                <div class="header">
+                    <img src="icons/user-circle.png" alt="profile picture" class="avatar">
+                    <div class="image"></div>
+                </div>
+                <div class="content">
+                    <h1>Jane Doe</h1>
+                    <p>
+                        <img src="icons/map-marker.png" alt="marker" style="width: 15px; height: 25px;">Seattle<br/>
+                        Developer | Engineer | Problem Resolver<br/>
+                        Master of shadows and the Internet!<br/>
+                        <a href="#">
+                            <img src="icons/gear.png" alt="edit icon" style="width: 15px; height: 15px;"> edit perfil
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="card_education">
+                <div class="card_education__header">Education</div>
+                <div class="card_education__content">
+                    <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                    <p class="card_education__content__dates">Dec 2019 - Mar 2020</p>
+                    <p>Triple black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="card_connection">
+                <div class="card_connection__header"><span class="bubble">&nbsp;2&nbsp;</span> Connections requests</div>
+                <div class="card_connection__content">
+                    <div class="card_connection__content__row">
+                        <span style="vertical-align: middle;">
+                            <img class="card_connection__avatar" src="https://cdn-icons-png.flaticon.com/512/552/552721.png">Todd E
+                        </span>
+                        <span>
+                            <img src="https://cdn-icons-png.flaticon.com/512/157/157977.png" style="height: 50px; width: 50px;"><img src="https://cdn-icons-png.flaticon.com/512/1617/1617543.png" style="height: 50px; width: 50px;">
+                        </span>
+                    </div>
+                    <div class="card_connection__content__row">
+                        <span style="vertical-align: middle;">
+                            <img class="card_connection__avatar" src="https://cdn-icons-png.flaticon.com/512/552/552721.png">Phil K
+                        </span>
+                        <span>
+                            <img src="https://cdn-icons-png.flaticon.com/512/157/157977.png" style="height: 50px; width: 50px;"><img src="https://cdn-icons-png.flaticon.com/512/1617/1617543.png" style="height: 50px; width: 50px;">
+                        </span>
+                    </div>                    
+                    <!-- <ul>
+                        <li>
+                            <img class="card_connection__avatar" src="images/todd-s.jpg">Todd E <img src="icons/accept-circle.png" style="height: 50px; width: 50px;"><img src="icons/close-circle.png" style="height: 50px; width: 50px;">
+                        </li>
+                        <li><img class="card_connection__avatar" src="images/phil-s.jpg">Phil K</li>
+                    </ul> -->
+                </div>
+            </div>
+            <div class="card_connection">
+                <div class="card_connection__header"><span class="bubble">&nbsp;+500&nbsp;</span> Your Connections</div>
+                <div class="card_connection__content">
+                    <ul>
+                        <li><img class="card_connection__avatar" src="https://cdn-icons-png.flaticon.com/512/552/552721.png">Adrien D</li>
+                        <li><img class="card_connection__avatar" src="https://cdn-icons-png.flaticon.com/512/552/552721.png">Anne J</li>
+                        <li><img class="card_connection__avatar" src="https://cdn-icons-png.flaticon.com/512/552/552721.png">Alayne T</li>
+                        <li><img class="card_connection__avatar" src="https://cdn-icons-png.flaticon.com/512/552/552721.png">Arry Y</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="card_connection__footer">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
